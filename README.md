@@ -1,0 +1,3 @@
+# JavaScript null handling bug
+
+This repository demonstrates an uncommon bug related to null value handling in a JavaScript function. The function `foo` is supposed to add two numbers.  However, it unexpectedly returns 0 when either input is null. This can lead to unexpected behavior in applications where null values are possible.  The solution demonstrates how to handle null values more gracefully and prevent unexpected outputs.
